@@ -9,6 +9,21 @@
   'use strict'
 
   root.PlexoChangelog = [
+	      {
+      version: 'v1.0.0-rc.16',
+      items: [
+        {
+          kind: 'new',
+          title: 'SOCKS5 proxies',
+          text: 'Add several SOCKS5 servers and switch them on from the bottom bar. Downloads are shared out evenly between the servers, and a server that stops answering is skipped for a while.'
+        },
+        {
+          kind: 'fixed',
+          title: 'SOCKS5 connections',
+          text: 'Connecting through a SOCKS5 proxy no longer hangs when the server answers in one piece.'
+        }
+      ]
+    },
     {
       version: 'v1.0.0-rc.15',
       items: [
